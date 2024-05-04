@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="34" passed="29" failed="1" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-30T15:58:20 IST" name="Suite" finished-at="2024-04-30T16:01:12 IST" duration-ms="171973">
+    <groups>
+      <group name="smoke">
+        <method signature="DependsOnMethod.register()[pri:0, instance:testSctrips.DependsOnMethod@d86a6f]" name="register" class="testSctrips.DependsOnMethod"/>
+        <method signature="RegisterTest.registerTest_001()[pri:0, instance:testSctrips.RegisterTest@2892d68]" name="registerTest_001" class="testSctrips.RegisterTest"/>
+        <method signature="BooksTest.books_001()[pri:0, instance:testSctrips.BooksTest@71ba6d4e]" name="books_001" class="testSctrips.BooksTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-04-30T15:58:20 IST" name="Test" finished-at="2024-04-30T16:01:12 IST" duration-ms="171973">
+      <class name="testSctrips.BooksTest">
+        <test-method signature="books_001()[pri:0, instance:testSctrips.BooksTest@71ba6d4e]" started-at="2024-04-30T15:58:20 IST" name="books_001" finished-at="2024-04-30T16:00:20 IST" duration-ms="119975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- books_001 -->
+      </class> <!-- testSctrips.BooksTest -->
+      <class name="testSctrips.RegisterTest">
+        <test-method signature="regiaterTest_002()[pri:0, instance:testSctrips.RegisterTest@2892d68]" started-at="2024-04-30T15:58:20 IST" name="regiaterTest_002" finished-at="2024-04-30T16:00:40 IST" duration-ms="139761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regiaterTest_002 -->
+        <test-method signature="registerTest_001()[pri:0, instance:testSctrips.RegisterTest@2892d68]" started-at="2024-04-30T15:59:52 IST" name="registerTest_001" finished-at="2024-04-30T16:01:12 IST" duration-ms="79678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest_001 -->
+      </class> <!-- testSctrips.RegisterTest -->
+      <class name="testSctrips.InvocationCountAndThreadPoolSize">
+        <test-method signature="login()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:58:20 IST" name="login" finished-at="2024-04-30T15:59:17 IST" duration-ms="56823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:58:20 IST" name="login" finished-at="2024-04-30T15:59:10 IST" duration-ms="50498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="confirmOrder()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:58:20 IST" name="confirmOrder" finished-at="2024-04-30T15:59:10 IST" duration-ms="50616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmOrder -->
+        <test-method signature="payment()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:58:20 IST" name="payment" finished-at="2024-04-30T15:59:17 IST" duration-ms="57195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method signature="login()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:58:20 IST" name="login" finished-at="2024-04-30T15:59:17 IST" duration-ms="57500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:58:20 IST" name="login" finished-at="2024-04-30T15:59:17 IST" duration-ms="57257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:58:20 IST" name="login" finished-at="2024-04-30T15:59:17 IST" duration-ms="57506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="confirmOrder()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:59:10 IST" name="confirmOrder" finished-at="2024-04-30T15:59:20 IST" duration-ms="9071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmOrder -->
+        <test-method signature="register()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:59:17 IST" name="register" finished-at="2024-04-30T15:59:29 IST" duration-ms="12190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:59:17 IST" name="register" finished-at="2024-04-30T15:59:29 IST" duration-ms="12189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="confirmOrder()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:59:20 IST" name="confirmOrder" finished-at="2024-04-30T15:59:42 IST" duration-ms="22695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmOrder -->
+        <test-method signature="register()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:59:29 IST" name="register" finished-at="2024-04-30T15:59:42 IST" duration-ms="12907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:59:29 IST" name="register" finished-at="2024-04-30T15:59:42 IST" duration-ms="12889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:59:42 IST" name="register" finished-at="2024-04-30T15:59:52 IST" duration-ms="9817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="confirmOrder()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:59:42 IST" name="confirmOrder" finished-at="2024-04-30T15:59:52 IST" duration-ms="9755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmOrder -->
+        <test-method signature="confirmOrder()[pri:0, instance:testSctrips.InvocationCountAndThreadPoolSize@229c6181]" started-at="2024-04-30T15:59:52 IST" name="confirmOrder" finished-at="2024-04-30T16:00:09 IST" duration-ms="17054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmOrder -->
+      </class> <!-- testSctrips.InvocationCountAndThreadPoolSize -->
+      <class name="testSctrips.DependsOnMethod">
+        <test-method signature="register()[pri:0, instance:testSctrips.DependsOnMethod@d86a6f]" started-at="2024-04-30T15:59:40 IST" name="register" finished-at="2024-04-30T15:59:48 IST" duration-ms="8159" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument
+  (Session info: chrome=124.0.6367.63)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44053abf955d6c282476d1636addf069, get {url=hghfh}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51953/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44053abf955d6c282476d1636addf069]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=124.0.6367.63)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44053abf955d6c282476d1636addf069, get {url=hghfh}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51953/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44053abf955d6c282476d1636addf069
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+at testSctrips.DependsOnMethod.register(DependsOnMethod.java:13)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="login()[pri:0, instance:testSctrips.DependsOnMethod@d86a6f]" started-at="2024-04-30T15:59:48 IST" name="login" finished-at="2024-04-30T15:59:48 IST" depends-on-methods="testSctrips.DependsOnMethod.register" duration-ms="2" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testSctrips.DependsOnMethod.login() on instance testSctrips.DependsOnMethod@d86a6f depends on not successfully finished methods 
+[testSctrips.DependsOnMethod.register() on instance testSctrips.DependsOnMethod@d86a6f]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testSctrips.DependsOnMethod.login() on instance testSctrips.DependsOnMethod@d86a6f depends on not successfully finished methods 
+[testSctrips.DependsOnMethod.register() on instance testSctrips.DependsOnMethod@d86a6f]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToCart()[pri:0, instance:testSctrips.DependsOnMethod@d86a6f]" started-at="2024-04-30T15:59:48 IST" name="addToCart" finished-at="2024-04-30T15:59:48 IST" depends-on-methods="testSctrips.DependsOnMethod.login" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testSctrips.DependsOnMethod.addToCart() on instance testSctrips.DependsOnMethod@d86a6f depends on not successfully finished methods 
+[testSctrips.DependsOnMethod.login() on instance testSctrips.DependsOnMethod@d86a6f]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testSctrips.DependsOnMethod.addToCart() on instance testSctrips.DependsOnMethod@d86a6f depends on not successfully finished methods 
+[testSctrips.DependsOnMethod.login() on instance testSctrips.DependsOnMethod@d86a6f]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="payment()[pri:0, instance:testSctrips.DependsOnMethod@d86a6f]" started-at="2024-04-30T15:59:48 IST" name="payment" finished-at="2024-04-30T15:59:48 IST" depends-on-methods="testSctrips.DependsOnMethod.addToCart" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testSctrips.DependsOnMethod.payment() on instance testSctrips.DependsOnMethod@d86a6f depends on not successfully finished methods 
+[testSctrips.DependsOnMethod.addToCart() on instance testSctrips.DependsOnMethod@d86a6f]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testSctrips.DependsOnMethod.payment() on instance testSctrips.DependsOnMethod@d86a6f depends on not successfully finished methods 
+[testSctrips.DependsOnMethod.addToCart() on instance testSctrips.DependsOnMethod@d86a6f]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method signature="confirmOrder()[pri:0, instance:testSctrips.DependsOnMethod@d86a6f]" started-at="2024-04-30T15:59:48 IST" name="confirmOrder" finished-at="2024-04-30T15:59:48 IST" depends-on-methods="testSctrips.DependsOnMethod.payment" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testSctrips.DependsOnMethod.confirmOrder() on instance testSctrips.DependsOnMethod@d86a6f depends on not successfully finished methods 
+[testSctrips.DependsOnMethod.payment() on instance testSctrips.DependsOnMethod@d86a6f]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testSctrips.DependsOnMethod.confirmOrder() on instance testSctrips.DependsOnMethod@d86a6f depends on not successfully finished methods 
+[testSctrips.DependsOnMethod.payment() on instance testSctrips.DependsOnMethod@d86a6f]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmOrder -->
+      </class> <!-- testSctrips.DependsOnMethod -->
+      <class name="testSctrips.EnableTest">
+        <test-method signature="register()[pri:0, instance:testSctrips.EnableTest@738dc9b]" started-at="2024-04-30T15:59:48 IST" name="register" finished-at="2024-04-30T16:00:02 IST" duration-ms="13446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register()[pri:0, instance:testSctrips.EnableTest@738dc9b]" started-at="2024-04-30T15:59:48 IST" name="register" finished-at="2024-04-30T16:00:02 IST" duration-ms="13418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register()[pri:0, instance:testSctrips.EnableTest@738dc9b]" started-at="2024-04-30T16:00:02 IST" name="register" finished-at="2024-04-30T16:00:21 IST" duration-ms="19611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register()[pri:0, instance:testSctrips.EnableTest@738dc9b]" started-at="2024-04-30T16:00:02 IST" name="register" finished-at="2024-04-30T16:00:20 IST" duration-ms="18085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register()[pri:0, instance:testSctrips.EnableTest@738dc9b]" started-at="2024-04-30T16:00:20 IST" name="register" finished-at="2024-04-30T16:00:31 IST" duration-ms="11222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- testSctrips.EnableTest -->
+      <class name="testSctrips.PriorityTest">
+        <test-method signature="register()[pri:0, instance:testSctrips.PriorityTest@3c77d488]" started-at="2024-04-30T15:59:17 IST" name="register" finished-at="2024-04-30T15:59:38 IST" duration-ms="21000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="login()[pri:1, instance:testSctrips.PriorityTest@3c77d488]" started-at="2024-04-30T16:00:09 IST" name="login" finished-at="2024-04-30T16:00:29 IST" duration-ms="20181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToCart()[pri:2, instance:testSctrips.PriorityTest@3c77d488]" started-at="2024-04-30T16:00:20 IST" name="addToCart" finished-at="2024-04-30T16:00:30 IST" duration-ms="10000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="payment()[pri:3, instance:testSctrips.PriorityTest@3c77d488]" started-at="2024-04-30T16:00:29 IST" name="payment" finished-at="2024-04-30T16:00:39 IST" duration-ms="9226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method signature="confirmOrder()[pri:4, instance:testSctrips.PriorityTest@3c77d488]" started-at="2024-04-30T16:00:30 IST" name="confirmOrder" finished-at="2024-04-30T16:00:38 IST" duration-ms="8437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmOrder -->
+      </class> <!-- testSctrips.PriorityTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
